@@ -9,28 +9,28 @@ This folder contains beginner Python programs.
 ## Goal
 
 Become proficient in Python for Data Science and Machine Learning.
+
 # Student Marks Analyzer
 
-## Description
+## Overview
 
-A Python program that analyzes student marks and generates a report.
+This Python program analyzes student marks and generates a summary report.
 
 ## Features
 
-- Calculates average marks
-- Finds highest marks
-- Finds lowest marks
-- Counts pass and fail
-- Shows grade distribution
+- Accepts marks from the user
+- Calculates average
+- Finds highest and lowest marks
+- Counts pass/fail students
+- Displays grade distribution
+- Validates input (0–100)
 
-## Concepts Used
+## Skills Practiced
 
+- Python Functions
 - Lists
 - Loops
-- Functions
-- Conditions
+- Conditional Statements
 - User Input
-
-## File
 
 student_marks_analyzer.py
