@@ -3,8 +3,11 @@ students = int(input("Enter the number of students: "))
 
 marks = []
 for i in range(students):
-    marks.append(int(input("Enter marks: ")))
-
+    mark = int(input("Enter marks: "))
+    if mark >=0 and mark <=100:
+        marks.append(mark)
+    else:
+        print("inavalid marks")
 
 def calculate_average(marks):
     return sum(marks) / len(marks)
