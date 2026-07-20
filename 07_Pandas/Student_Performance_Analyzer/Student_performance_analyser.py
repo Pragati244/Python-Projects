@@ -19,5 +19,7 @@ df["Average"] = df[["Maths", "English", "Science"]].mean(axis=1)
 
 df["Result"] = np.where(df["Average"] >=40, "Pass", "Fail")
 
+print(f'Number of students with Science marks > 80: {df["Science"][df["Science"] > 80].count()}')
+
 print(f'Student with highest average: {df["Name"][df["Average"] == df["Average"].max()].iloc[0]}')
-print(df)
+print(df.sort_values(by="Average", ascending=False))

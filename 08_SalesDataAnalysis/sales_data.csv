@@ -1,0 +1,11 @@
+OrderID,Product,Category,Quantity,Price,Region
+1001,Laptop,Electronics,2,65000,North
+1002,Phone,Electronics,3,35000,South
+1003,Chair,Furniture,5,4500,East
+1004,Table,Furniture,2,8000,West
+1005,Laptop,Electronics,1,65000,South
+1006,Headphones,Electronics,6,2500,North
+1007,Sofa,Furniture,1,35000,East
+1008,Phone,Electronics,2,35000,West
+1009,Chair,Furniture,4,4500,North
+1010,Laptop,Electronics,3,65000,East
